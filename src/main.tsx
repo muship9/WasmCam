@@ -5,8 +5,8 @@ import App from "./App.tsx";
 
 const rootElement = document.getElementById("root");
 rootElement &&
-  createRoot(rootElement).render(
-    <StrictMode>
-      <App />
-    </StrictMode>,
-  );
+	createRoot(rootElement).render(
+		<StrictMode>
+			<App />
+		</StrictMode>,
+	);
